@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CBR Tech Solutions — Where ideas become unicorns.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+          <defs>
+            <linearGradient id="hexGrad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#1a6ef5"/><stop offset="100%" stop-color="#4facfe"/>
+            </linearGradient>
+          </defs>
+          <polygon points="18,2 32,10 32,26 18,34 4,26 4,10" fill="url(#hexGrad)"/>
+          <path d="M22 13a7 7 0 1 0 0 10" stroke="white" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+        </svg>
+        <span class="nav-brand">CBR</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#comunidade">Comunidade</a></li>
+        <li><a href="#processo">Processo</a></li>
+        <li><a href="#contato" class="btn-nav">Fale conosco</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-logo">
+        <svg width="96" height="96" viewBox="0 0 96 96" fill="none">
+          <defs>
+            <linearGradient id="hexGrad2" x1="0" y1="0" x2="96" y2="96" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#1a6ef5"/><stop offset="100%" stop-color="#4facfe"/>
+            </linearGradient>
+          </defs>
+          <polygon points="48,4 88,26 88,70 48,92 8,70 8,26" fill="url(#hexGrad2)"/>
+          <path d="M58 33a19 19 0 1 0 0 30" stroke="white" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+        </svg>
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-brand">CBR <span>Tech Solutions</span></h1>
+        <p class="hero-slogan">Where ideas become unicorns.</p>
+        <p class="hero-sub">Transformamos visões ousadas em produtos digitais que escalam. Do Nordeste para o mundo.</p>
+        <div class="hero-actions">
+          <a href="#servicos" class="btn-primary">Nossos serviços</a>
+          <a href="#sobre" class="btn-ghost">Conheça a CBR</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="container">
+      <div class="section-label">Sobre nós</div>
+      <div class="sobre-grid">
+        <div class="sobre-left">
+          <h2>Tecnologia com alma nordestina</h2>
+          <p>Nascemos no Nordeste do Brasil com a missão de provar que inovação não tem endereço. A CBR Tech Solutions une talentos locais e visão global para construir soluções que transformam negócios.</p>
+          <p>Acreditamos que cada startup, cada empresa, cada ideia tem potencial de se tornar um unicórnio — e nós somos o time que faz isso acontecer.</p>
+        </div>
+        <div class="sobre-right">
+          <div class="stat-card">
+            <span class="stat-num">50<sup>+</sup></span>
+            <span class="stat-label">Projetos entregues</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">12</span>
+            <span class="stat-label">Estados atendidos</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">98<sup>%</sup></span>
+            <span class="stat-label">Satisfação dos clientes</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Anos de mercado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS — LAYOUT ALTERNADO -->
+  <section id="servicos">
+    <div class="container">
+      <div class="section-label">O que fazemos</div>
+      <h2 class="section-title">Soluções que <em>transformam</em></h2>
+
+      <div class="services-list">
+
+        <!-- 01 Desenvolvimento Web & App -->
+        <div class="service-row">
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=640&h=480&fit=crop&auto=format&q=80"
+              alt="Desenvolvimento Web e App"
+              loading="lazy"
+              class="service-photo"
+            />
+          </div>
+          <div class="service-content">
+            <span class="service-tag">01</span>
+            <h3>Desenvolvimento Web & App</h3>
+            <p>Criamos plataformas web e aplicativos móveis de alta performance que crescem junto com seu negócio — do MVP ao produto maduro.</p>
+            <ul class="service-bullets">
+              <li>Sites, portais e plataformas SaaS</li>
+              <li>Aplicativos iOS e Android nativos</li>
+              <li>Sistemas de gestão customizados</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 02 Legal Tech -->
+        <div class="service-row service-row-reverse">
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=640&h=480&fit=crop&auto=format&q=80"
+              alt="Legal Tech"
+              loading="lazy"
+              class="service-photo"
+            />
+          </div>
+          <div class="service-content">
+            <span class="service-tag">02</span>
+            <h3>Legal Tech</h3>
+            <p>Digitalizamos escritórios de advocacia e departamentos jurídicos com ferramentas inteligentes que eliminam burocracia e aumentam a produtividade.</p>
+            <ul class="service-bullets">
+              <li>Gestão de contratos e processos</li>
+              <li>Automação de documentos jurídicos</li>
+              <li>Compliance e auditoria digital</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 03 Automação de Processos -->
+        <div class="service-row">
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=640&h=480&fit=crop&auto=format&q=80"
+              alt="Automação de Processos"
+              loading="lazy"
+              class="service-photo"
+            />
+          </div>
+          <div class="service-content">
+            <span class="service-tag">03</span>
+            <h3>Automação de Processos</h3>
+            <p>Mapeamos, otimizamos e automatizamos fluxos de trabalho para que seu time foque no que realmente importa: crescer.</p>
+            <ul class="service-bullets">
+              <li>RPA e integração de sistemas</li>
+              <li>Workflows inteligentes com IA</li>
+              <li>Redução de custos operacionais</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 04 Cibersegurança -->
+        <div class="service-row service-row-reverse">
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=640&h=480&fit=crop&auto=format&q=80"
+              alt="Cibersegurança"
+              loading="lazy"
+              class="service-photo"
+            />
+          </div>
+          <div class="service-content">
+            <span class="service-tag">04</span>
+            <h3>Cibersegurança</h3>
+            <p>Protegemos dados, infraestrutura e reputação digital da sua empresa com soluções robustas e estratégias proativas de segurança.</p>
+            <ul class="service-bullets">
+              <li>Pentest e análise de vulnerabilidades</li>
+              <li>Monitoramento e resposta a incidentes</li>
+              <li>Políticas de segurança e LGPD</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 05 IA e Agentes Inteligentes -->
+        <div class="service-row">
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=640&h=480&fit=crop&auto=format&q=80"
+              alt="IA e Agentes Inteligentes"
+              loading="lazy"
+              class="service-photo"
+            />
+          </div>
+          <div class="service-content">
+            <span class="service-tag">05</span>
+            <h3>IA e Agentes Inteligentes</h3>
+            <p>Integramos inteligência artificial ao núcleo do seu negócio: agentes autônomos, modelos customizados e automações que aprendem.</p>
+            <ul class="service-bullets">
+              <li>Agentes de IA para atendimento e vendas</li>
+              <li>Fine-tuning de modelos de linguagem</li>
+              <li>Pipelines de dados e ML em produção</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 06 Escalabilidade de Negócios -->
+        <div class="service-row service-row-reverse">
+          <div class="service-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=640&h=480&fit=crop&auto=format&q=80"
+              alt="Escalabilidade de Negócios"
+              loading="lazy"
+              class="service-photo"
+            />
+          </div>
+          <div class="service-content">
+            <span class="service-tag">06</span>
+            <h3>Escalabilidade de Negócios</h3>
+            <p>Da infraestrutura ao modelo de negócio, preparamos sua empresa para crescer sem travar — com arquitetura e estratégia que sustentam o sucesso.</p>
+            <ul class="service-bullets">
+              <li>Arquitetura cloud-native e microsserviços</li>
+              <li>Growth hacking e estratégia digital</li>
+              <li>Mentoria para startups em expansão</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMUNIDADE -->
+  <section id="comunidade">
+    <div class="container">
+      <div class="section-label">Comunidade</div>
+      <h2 class="section-title">Faça parte do <em>ecossistema</em></h2>
+      <p class="section-sub">Um ambiente onde founders, devs e inovadores se encontram, colaboram e crescem juntos — com apoio real da CBR.</p>
+
+      <div class="comunidade-steps">
+
+        <div class="com-step">
+          <div class="com-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <circle cx="12" cy="10" r="4" stroke="url(#ci1)" stroke-width="2"/>
+              <circle cx="24" cy="8" r="3" stroke="url(#ci1)" stroke-width="2"/>
+              <path d="M4 24c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="url(#ci1)" stroke-width="2" stroke-linecap="round"/>
+              <path d="M24 17c2.2 0 4 1.8 4 4" stroke="url(#ci1)" stroke-width="2" stroke-linecap="round"/>
+              <defs><linearGradient id="ci1" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse"><stop stop-color="#1a6ef5"/><stop offset="1" stop-color="#4facfe"/></linearGradient></defs>
+            </svg>
+          </div>
+          <div class="com-step-num">01</div>
+          <h3>Conectar</h3>
+          <p>Entre em contato com uma rede selecionada de empreendedores, desenvolvedores e parceiros estratégicos do ecossistema CBR.</p>
+        </div>
+
+        <div class="com-connector" aria-hidden="true">
+          <svg width="48" height="16" viewBox="0 0 48 16" fill="none">
+            <path d="M0 8 H40 M36 4 L42 8 L36 12" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+
+        <div class="com-step">
+          <div class="com-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <rect x="4" y="12" width="10" height="14" rx="2" stroke="url(#ci2)" stroke-width="2"/>
+              <rect x="18" y="6" width="10" height="20" rx="2" stroke="url(#ci2)" stroke-width="2"/>
+              <path d="M4 8 L16 4" stroke="url(#ci2)" stroke-width="2" stroke-linecap="round"/>
+              <defs><linearGradient id="ci2" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse"><stop stop-color="#1a6ef5"/><stop offset="1" stop-color="#4facfe"/></linearGradient></defs>
+            </svg>
+          </div>
+          <div class="com-step-num">02</div>
+          <h3>Construir</h3>
+          <p>Colabore em projetos reais, participe de hackathons e desenvolva soluções inovadoras com o suporte técnico e estratégico do time CBR.</p>
+        </div>
+
+        <div class="com-connector" aria-hidden="true">
+          <svg width="48" height="16" viewBox="0 0 48 16" fill="none">
+            <path d="M0 8 H40 M36 4 L42 8 L36 12" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+
+        <div class="com-step">
+          <div class="com-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <path d="M16 4 L28 10 L28 22 L16 28 L4 22 L4 10 Z" stroke="url(#ci3)" stroke-width="2" fill="none"/>
+              <path d="M16 4 L16 28" stroke="url(#ci3)" stroke-width="1.2" opacity=".4"/>
+              <path d="M4 10 L28 22" stroke="url(#ci3)" stroke-width="1.2" opacity=".4"/>
+              <path d="M28 10 L4 22" stroke="url(#ci3)" stroke-width="1.2" opacity=".4"/>
+              <defs><linearGradient id="ci3" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse"><stop stop-color="#1a6ef5"/><stop offset="1" stop-color="#4facfe"/></linearGradient></defs>
+            </svg>
+          </div>
+          <div class="com-step-num">03</div>
+          <h3>Escalar</h3>
+          <p>Acesse mentorias exclusivas, conexões com investidores e recursos para transformar seu projeto em um negócio de impacto global.</p>
+        </div>
+
+      </div>
+
+      <div class="comunidade-cta">
+        <a href="#contato" class="btn-primary btn-lg">Quero fazer parte</a>
+        <p class="comunidade-note">Gratuito para founders e desenvolvedores em fase inicial.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESSO -->
+  <section id="processo">
+    <div class="container">
+      <div class="section-label">Como trabalhamos</div>
+      <h2 class="section-title">Do conceito ao <em>produto</em></h2>
+      <div class="processo-steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Descoberta</h3>
+          <p>Entendemos profundamente o problema, o mercado e os usuários antes de escrever uma linha de código.</p>
+        </div>
+        <div class="step-arrow" aria-hidden="true">→</div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Estratégia</h3>
+          <p>Definimos roadmap, arquitetura e stack com base em dados e nos objetivos do seu negócio.</p>
+        </div>
+        <div class="step-arrow" aria-hidden="true">→</div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Execução</h3>
+          <p>Sprints ágeis, entregas contínuas e comunicação transparente do início ao fim.</p>
+        </div>
+        <div class="step-arrow" aria-hidden="true">→</div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h3>Escala</h3>
+          <p>Otimização, crescimento e suporte contínuo para levar seu produto ainda mais longe.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section id="cta-banner">
+    <div class="container">
+      <div class="cta-inner">
+        <h2>Sua ideia tem potencial de unicórnio?</h2>
+        <p>Vamos descobrir juntos. Uma conversa pode mudar tudo.</p>
+        <a href="#contato" class="btn-primary btn-lg">Iniciar projeto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="container">
+      <div class="section-label">Contato</div>
+      <h2 class="section-title">Vamos <em>conversar</em></h2>
+      <div class="contato-grid">
+        <div class="contato-info">
+          <p class="contato-desc">Tem um projeto, uma ideia ou quer saber mais sobre a CBR? Manda uma mensagem — respondemos em até 24h.</p>
+          <div class="contato-items">
+            <div class="contato-item">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2.5 5.5l7.5 5 7.5-5" stroke="#1a6ef5" stroke-width="1.6" stroke-linecap="round"/><rect x="1.5" y="3.5" width="17" height="13" rx="2" stroke="#1a6ef5" stroke-width="1.6"/></svg>
+              <span>cbrempreendimentosal@gmail.com</span>
+            </div>
+            <div class="contato-item">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2C7.24 2 5 4.24 5 7c0 4.25 5 11 5 11s5-6.75 5-11c0-2.76-2.24-5-5-5z" stroke="#1a6ef5" stroke-width="1.6"/><circle cx="10" cy="7" r="2" stroke="#1a6ef5" stroke-width="1.5"/></svg>
+              <span>Nordeste do Brasil</span>
+            </div>
+          </div>
+        </div>
+        <form class="contato-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" name="assunto" placeholder="Sobre o que você quer falar?" required />
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conta um pouco sobre seu projeto ou ideia..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Enviar mensagem</button>
+          <p class="form-success" id="formSuccess">Mensagem enviada! Retornaremos em breve.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <svg width="32" height="32" viewBox="0 0 36 36" fill="none">
+              <defs>
+                <linearGradient id="hexGrad3" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#1a6ef5"/><stop offset="100%" stop-color="#4facfe"/>
+                </linearGradient>
+              </defs>
+              <polygon points="18,2 32,10 32,26 18,34 4,26 4,10" fill="url(#hexGrad3)"/>
+              <path d="M22 13a7 7 0 1 0 0 10" stroke="white" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+            </svg>
+            <span class="nav-brand">CBR</span>
+          </a>
+          <p class="footer-slogan">Where ideas become unicorns.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#comunidade">Comunidade</a>
+          <a href="#processo">Processo</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 CBR Tech Solutions. Todos os direitos reservados.</span>
+        <span>Feito com orgulho no Nordeste 🇧🇷</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
