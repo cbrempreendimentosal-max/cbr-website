@@ -24,14 +24,12 @@ document.querySelectorAll('.service-photo').forEach(img => {
 
 // Scroll reveal
 const revealSelectors = [
-  '.stat-card',
   '.service-row',
   '.com-step',
   '.step',
   '.contato-info',
   '.contato-form',
-  '.sobre-left',
-  '.sobre-right',
+  '.sobre-single',
   '.cta-inner',
   '.comunidade-cta',
 ];
